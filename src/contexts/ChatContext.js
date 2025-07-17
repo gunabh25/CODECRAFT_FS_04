@@ -3,7 +3,7 @@
 'use client';
 
 import { createContext, useContext, useReducer, useEffect } from 'react';
-import { WebSocketService } from '../utils/websocket';
+import { WebSocketService } from '@/utils/websocket';
 
 const ChatContext = createContext();
 
