@@ -1,3 +1,6 @@
+'use client';
+
+import React from 'react';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Bell, X, Check, MessageSquare, Users, Settings, Volume2, VolumeX } from 'lucide-react';
