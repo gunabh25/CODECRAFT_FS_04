@@ -1,5 +1,5 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
 @layer base {
@@ -25,12 +25,11 @@
     --ring: 221.2 83.2% 53.3%;
     --radius: 0.5rem;
   }
-}
 
-@layer base {
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -55,7 +54,7 @@
   background: #94a3b8;
 }
 
-/* Glassmorphism effect */
+/* Glassmorphism */
 .glass {
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   backdrop-filter: blur(16px) saturate(180%);
@@ -73,7 +72,7 @@
   animation: float 3s ease-in-out infinite;
 }
 
-/* Pulse animation */
+/* Pulse glow animation */
 @keyframes pulse-glow {
   0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.3); }
   50% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.5); }
