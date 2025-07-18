@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation'
 import Sidebar from '@/components/dashboard/Sidebar'
 import ChatArea from '@/components/dashboard/ChatArea'
 import UserList from '@/components/dashboard/UserList'
-import { useWebSocket } from '@/hooks/useWebSocket'
+import { useWebSocket } from '@/hooks/useWebsocket'
 
 export default function Dashboard() {
   const router = useRouter()
