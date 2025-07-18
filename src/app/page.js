@@ -18,6 +18,7 @@ import {
   Tablet
 } from 'lucide-react';
 import FloatingShapes from '@/components/ui/FloatingShapes';
+import './globals.css';
 
 const LandingPage = () => {
   const router = useRouter();
